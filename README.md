@@ -57,6 +57,22 @@ The sidebar is generated from the folder structure, so no `sidebars.ts` edit is
 needed. A category folder with no documents in it fails the build — add the
 folder and its first document together.
 
+## Two indexes
+
+Samples are indexed twice from one source of truth:
+
+- **By product** — the sidebar, generated from the folder structure.
+- **By content type** — tag pages Docusaurus generates from frontmatter, at
+  `/docs/tags/type/*` and `/docs/tags/product/*`.
+
+Every sample carries `tags: [<type>, <product>]`. The vocabulary is declared in
+`docs/tags.yml`, and `onInlineTags: 'throw'` means a tag missing from that file
+fails the build rather than quietly creating a one-item category. Adding a
+sample means adding one frontmatter line — there's no second index to edit.
+
+Add a new type by declaring it in `docs/tags.yml` first, then tagging docs
+with it.
+
 ## Imported help articles
 
 Two sets of help-centre articles are reproduced under
@@ -89,10 +105,15 @@ covers them:
 | `<ContextTag>` | an inline chip (the icon is dropped) |
 | `*Icon` (139 of them) | nothing |
 
-Two consequences worth knowing. Icons that appear beside UI labels on
+Three consequences worth knowing. Icons that appear beside UI labels on
 status.app are missing here, so a step reads "tap **Wallet**" without its icon.
-And a `<TabsTrigger disabled>` — a platform Status hasn't shipped — is dropped
-rather than rendered as an empty tab.
+A `<TabsTrigger disabled>` — a platform Status hasn't shipped — is dropped
+rather than rendered as an empty tab. And an icon used as *content* rather than
+decoration has to be given a glyph explicitly: the permissions matrix marks an
+allowed action with `<CheckCircleIcon />` and leaves the cell empty otherwise,
+so rendering it as nothing would have blanked the whole table. When importing
+another article, check for icons that appear outside a ContextTag
+`icon={...}` prop.
 
 All 139 icon names are registered, not just the ones currently used, so
 importing another article won't fail the build on an unknown component. These

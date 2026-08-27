@@ -3,6 +3,7 @@ title: Install and load a module in the Logos Basecamp app
 sidebar_position: 2
 description: >-
   A sectioned procedure for app users: installing an .lgx module package from the Logos catalog and loading it from the Basecamp Modules view.
+tags: [procedure, logos]
 ---
 
 :::info Sample

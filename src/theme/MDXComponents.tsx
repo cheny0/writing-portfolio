@@ -34,6 +34,7 @@ export default {
   TableCell: StatusDocs.TableCell,
   ContextTag: StatusDocs.ContextTag,
   ExternalIcon: StatusDocs.ExternalIcon,
+  CheckCircleIcon: StatusDocs.CheckCircleIcon,
   AwaitedList: StatusDocs.AwaitedList,
   Divider: StatusDocs.Divider,
 };

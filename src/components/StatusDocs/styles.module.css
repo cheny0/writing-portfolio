@@ -33,3 +33,8 @@
 .tableWrapper td > :last-child {
   margin-bottom: 0;
 }
+
+.checkIcon {
+  color: var(--ifm-color-success);
+  font-weight: 700;
+}

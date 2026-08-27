@@ -9,6 +9,16 @@ description: Developer documentation samples — procedures, tutorials, and refe
 Each sample below is a document I researched, structured, and wrote end to end.
 Every one of them is published; each sample links to the live version.
 
+## Browse by type
+
+The samples below are grouped by product. To read across products by what kind
+of document each one is:
+
+| | | |
+| --- | --- | --- |
+| [Procedure](./tags/type/procedure) — 7 | [Reference](./tags/type/reference) — 3 | [Concept](./tags/type/concept) — 2 |
+| [Quick start](./tags/type/quick-start) — 1 | [All tags](./tags) | |
+
 ## Procedures
 
 Task-based documents that get a reader from a starting state to a verified
@@ -38,6 +48,9 @@ Imported from the Status help set, reviewed by `jorge-campo`.
 | [How to run a Status Community: your quick start guide](./procedures/user-docs/status/how-to-run-a-status-community.mdx) | Orientation | Setting up channels, controlling membership, and using tokens to manage permissions |
 | [About voting to change the community visibility](./procedures/user-docs/status/about-voting-to-change-the-community-visibility.mdx) | Concept | How SNT holders vote to feature a community or change its visibility, and what each step costs |
 | [Sync your profile across devices](./procedures/user-docs/status/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
+| [Understand your actions in Status](./procedures/user-docs/status/understand-your-actions-in-status.mdx) | Reference | Every action Status takes on your behalf, the data it touches, and the third parties involved |
+| [Permissions by role in Status Communities](./procedures/user-docs/status/permissions-by-role-in-status-communities.mdx) | Reference | Which management tasks each role — member, Admin, TokenMaster, Owner — can perform |
+| [About the control node in Status Communities](./procedures/user-docs/status/about-the-control-node-in-status-communities.mdx) | Concept | The machine holding a community's private key, and what happens when it goes offline |
 
 ### User docs — Keycard
 

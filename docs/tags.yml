@@ -1,0 +1,48 @@
+# Controlled vocabulary for sample tags. `onInlineTags: 'throw'` in
+# docusaurus.config.ts means a tag missing from this file fails the build,
+# so a typo can't quietly create a one-item category.
+
+# --- content type ---
+procedure:
+  label: Procedure
+  permalink: /type/procedure
+  description: >-
+    Task-based documents that take a reader from a starting state to a verified
+    result, with numbered steps.
+
+concept:
+  label: Concept
+  permalink: /type/concept
+  description: >-
+    Documents that explain how something works and why, so a reader can make a
+    decision. No steps to follow.
+
+reference:
+  label: Reference
+  permalink: /type/reference
+  description: >-
+    Lookup-oriented documents — tables, matrices, and exhaustive descriptions
+    read out of order rather than start to finish.
+
+quick-start:
+  label: Quick start
+  permalink: /type/quick-start
+  description: >-
+    Orientation documents that map a whole area and hand the reader off to the
+    detailed documents underneath.
+
+# --- product ---
+logos:
+  label: Logos
+  permalink: /product/logos
+  description: Developer documentation for Logos Core and the Logos Execution Zone.
+
+status:
+  label: Status
+  permalink: /product/status
+  description: Help-centre articles for the Status messaging and wallet app.
+
+keycard:
+  label: Keycard
+  permalink: /product/keycard
+  description: Help-centre articles for Keycard Shell, a hardware wallet and transaction signer.

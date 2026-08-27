@@ -162,6 +162,23 @@ export function ContextTag({children}: {icon?: ReactNode; children?: ReactNode})
   return <span className={styles.contextTag}>{children}</span>;
 }
 
+/**
+ * A permission matrix marks an allowed action with this icon and leaves the
+ * cell empty otherwise, so unlike the icons beside ContextTag labels it is the
+ * only thing carrying the meaning. It has to render something.
+ *
+ * When importing another article, check for icons used as standalone content
+ * rather than as a ContextTag `icon={...}` prop — those need a glyph here, or
+ * the page silently loses information.
+ */
+export function CheckCircleIcon() {
+  return (
+    <span className={styles.checkIcon} role="img" aria-label="Yes">
+      ✓
+    </span>
+  );
+}
+
 /** Marks a link that leaves the site. */
 export function ExternalIcon() {
   return (

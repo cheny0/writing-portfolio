@@ -3,6 +3,7 @@ title: Transfer native tokens on the Logos Execution Zone
 sidebar_position: 3
 description: >-
   A flat procedure for LEZ users: sending native tokens between public and private accounts with the wallet CLI.
+tags: [procedure, logos]
 ---
 
 :::info Sample

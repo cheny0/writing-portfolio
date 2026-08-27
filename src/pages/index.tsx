@@ -73,6 +73,27 @@ const groups: Group[] = [
           'How voting to feature a community or change its visibility works, and what each step of the vote costs.',
       },
       {
+        title: 'Understand your actions in Status',
+        to: '/docs/procedures/user-docs/status/understand-your-actions-in-status',
+        audience: 'Privacy-conscious users',
+        blurb:
+          'A reference table of every action Status takes on your behalf, the data it touches, and the third parties involved.',
+      },
+      {
+        title: 'Permissions by role in Status Communities',
+        to: '/docs/procedures/user-docs/status/permissions-by-role-in-status-communities',
+        audience: 'Community admins',
+        blurb:
+          'Which management tasks each role — member, Admin, TokenMaster, Owner — is allowed to perform.',
+      },
+      {
+        title: 'About the control node in Status Communities',
+        to: '/docs/procedures/user-docs/status/about-the-control-node-in-status-communities',
+        audience: 'Community owners',
+        blurb:
+          "The machine that holds a community's private key, and what breaks when it goes offline.",
+      },
+      {
         title: 'Sync your profile across devices',
         to: '/docs/procedures/user-docs/status/sync-your-profile-across-devices',
         audience: 'Status users',
