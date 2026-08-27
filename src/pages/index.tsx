@@ -15,18 +15,32 @@ type Sample = {
 
 const samples: Sample[] = [
   {
-    title: 'Wrap a C library as a Logos core module',
-    to: '/docs/procedures/wrap-a-c-library-as-a-logos-core-module',
+    title: 'Build and run a Logos core module',
+    to: '/docs/procedures/build-and-run-a-logos-core-module',
     audience: 'C++ developers',
     blurb:
-      'Linking a C shared library into a Qt plugin and re-exposing its functions through the Logos Core meta-object system.',
+      'Scaffolding, building, packaging, and testing a non-UI business logic module for the Logos Core framework.',
   },
   {
     title: 'Install and load a module in the Logos Basecamp app',
     to: '/docs/procedures/install-and-load-a-module-in-the-logos-basecamp-app',
     audience: 'App users',
     blurb:
-      'Installing an .lgx module package from the Logos catalog and loading it from the Basecamp Modules view.',
+      'Installing an .lgx module package from the Logos catalogue and loading it from the Basecamp Modules view.',
+  },
+  {
+    title: 'Transfer native tokens on the Logos Execution Zone',
+    to: '/docs/procedures/transfer-native-tokens-on-the-logos-execution-zone',
+    audience: 'LEZ users',
+    blurb:
+      'Sending native tokens between public and private accounts with the wallet CLI.',
+  },
+  {
+    title: 'Create and transfer custom tokens on the Logos Execution Zone',
+    to: '/docs/procedures/create-and-transfer-custom-tokens-on-the-logos-execution-zone',
+    audience: 'LEZ users',
+    blurb:
+      'Defining a custom token with the LEZ token program, then transferring it between public and private accounts.',
   },
 ];
 

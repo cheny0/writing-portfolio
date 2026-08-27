@@ -7,7 +7,7 @@ description: >-
 
 :::info Sample
 
-Written for [Logos](https://github.com/logos-co/logos-docs).
+Written for [Logos](https://logos.co/). Published at [docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp](https://docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp).
 
 :::
 

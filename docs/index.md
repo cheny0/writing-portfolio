@@ -7,18 +7,26 @@ description: Developer documentation samples — procedures, tutorials, and refe
 ---
 
 Each sample below is a document I researched, structured, and wrote end to end.
-Where the document is published in a public repo, the sample links to it.
+Every one of them is published; each sample links to the live version.
 
 ## Procedures
 
 Task-based documents that get a reader from a starting state to a verified
-result. Both samples use a sectioned layout: numbered `Step N` blocks, each with
-its own verification.
+result.
+
+### Logos Core — building and running modules
 
 | Sample | Audience | What it covers |
 | --- | --- | --- |
-| [Wrap a C library as a Logos core module](./procedures/wrap-a-c-library-as-a-logos-core-module.md) | C++ developers building Logos modules | Linking a C shared library into a Qt plugin and re-exposing its functions through the meta-object system |
-| [Install and load a module in the Logos Basecamp app](./procedures/install-and-load-a-module-in-the-logos-basecamp-app.md) | Basecamp users installing modules | Installing an `.lgx` package from the catalog and loading it from the Modules view |
+| [Build and run a Logos core module](./procedures/build-and-run-a-logos-core-module.md) | C++ developers | Scaffolding, building, packaging, and testing a non-UI business logic module |
+| [Install and load a module in the Logos Basecamp app](./procedures/install-and-load-a-module-in-the-logos-basecamp-app.md) | Basecamp users | Installing an `.lgx` package from the catalogue and loading it from the Modules view |
+
+### Logos Execution Zone — moving tokens
+
+| Sample | Audience | What it covers |
+| --- | --- | --- |
+| [Transfer native tokens on the Logos Execution Zone](./procedures/transfer-native-tokens-on-the-logos-execution-zone.md) | LEZ users | Sending native tokens between public and private accounts with the wallet CLI |
+| [Create and transfer custom tokens on the Logos Execution Zone](./procedures/create-and-transfer-custom-tokens-on-the-logos-execution-zone.md) | LEZ users | Defining a custom token with the LEZ token program and transferring it |
 
 ## How I work
 
