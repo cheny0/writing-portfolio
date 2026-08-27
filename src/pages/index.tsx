@@ -26,28 +26,28 @@ const groups: Group[] = [
     samples: [
   {
     title: 'Build and run a Logos core module',
-    to: '/docs/procedures/build-and-run-a-logos-core-module',
+    to: '/docs/dev-docs/build-and-run-a-logos-core-module',
     audience: 'C++ developers',
     blurb:
       'Scaffolding, building, packaging, and testing a non-UI business logic module for the Logos Core framework.',
   },
   {
     title: 'Install and load a module in the Logos Basecamp app',
-    to: '/docs/procedures/install-and-load-a-module-in-the-logos-basecamp-app',
+    to: '/docs/dev-docs/install-and-load-a-module-in-the-logos-basecamp-app',
     audience: 'App users',
     blurb:
       'Installing an .lgx module package from the Logos catalogue and loading it from the Basecamp Modules view.',
   },
   {
     title: 'Transfer native tokens on the Logos Execution Zone',
-    to: '/docs/procedures/transfer-native-tokens-on-the-logos-execution-zone',
+    to: '/docs/dev-docs/transfer-native-tokens-on-the-logos-execution-zone',
     audience: 'LEZ users',
     blurb:
       'Sending native tokens between public and private accounts with the wallet CLI.',
   },
   {
     title: 'Create and transfer custom tokens on the Logos Execution Zone',
-    to: '/docs/procedures/create-and-transfer-custom-tokens-on-the-logos-execution-zone',
+    to: '/docs/dev-docs/create-and-transfer-custom-tokens-on-the-logos-execution-zone',
     audience: 'LEZ users',
     blurb:
       'Defining a custom token with the LEZ token program, then transferring it between public and private accounts.',
@@ -60,42 +60,42 @@ const groups: Group[] = [
     samples: [
       {
         title: 'How to run a Status Community: your quick start guide',
-        to: '/docs/procedures/user-docs/status/how-to-run-a-status-community',
+        to: '/docs/user-docs/status/how-to-run-a-status-community',
         audience: 'Community owners',
         blurb:
           'Setting up channels, controlling who can join, and using tokens to manage permissions and roles.',
       },
       {
         title: 'About voting to change the community visibility',
-        to: '/docs/procedures/user-docs/status/about-voting-to-change-the-community-visibility',
+        to: '/docs/user-docs/status/about-voting-to-change-the-community-visibility',
         audience: 'SNT holders',
         blurb:
           'How voting to feature a community or change its visibility works, and what each step of the vote costs.',
       },
       {
         title: 'Understand your actions in Status',
-        to: '/docs/procedures/user-docs/status/understand-your-actions-in-status',
+        to: '/docs/user-docs/status/understand-your-actions-in-status',
         audience: 'Privacy-conscious users',
         blurb:
           'A reference table of every action Status takes on your behalf, the data it touches, and the third parties involved.',
       },
       {
         title: 'Permissions by role in Status Communities',
-        to: '/docs/procedures/user-docs/status/permissions-by-role-in-status-communities',
+        to: '/docs/user-docs/status/permissions-by-role-in-status-communities',
         audience: 'Community admins',
         blurb:
           'Which management tasks each role — member, Admin, TokenMaster, Owner — is allowed to perform.',
       },
       {
         title: 'About the control node in Status Communities',
-        to: '/docs/procedures/user-docs/status/about-the-control-node-in-status-communities',
+        to: '/docs/user-docs/status/about-the-control-node-in-status-communities',
         audience: 'Community owners',
         blurb:
           "The machine that holds a community's private key, and what breaks when it goes offline.",
       },
       {
         title: 'Sync your profile across devices',
-        to: '/docs/procedures/user-docs/status/sync-your-profile-across-devices',
+        to: '/docs/user-docs/status/sync-your-profile-across-devices',
         audience: 'Status users',
         blurb:
           'Pairing a new device on mobile and desktop, and turning syncing off again.',
@@ -108,21 +108,21 @@ const groups: Group[] = [
     samples: [
       {
         title: 'Set up your Keycard with Keycard Shell',
-        to: '/docs/procedures/user-docs/keycard/set-up-your-keycard-with-keycard-shell',
+        to: '/docs/user-docs/keycard/set-up-your-keycard-with-keycard-shell',
         audience: 'New Keycard owners',
         blurb:
           'Setting a PIN and a duress PIN, then loading a key pair onto the card using Keycard Shell.',
       },
       {
         title: 'Get to know your Keycard Shell',
-        to: '/docs/procedures/user-docs/keycard/get-to-know-your-keycard-shell',
+        to: '/docs/user-docs/keycard/get-to-know-your-keycard-shell',
         audience: 'New Keycard owners',
         blurb:
           'Hardware orientation: the controls on each side of the device, the keypad, and the on-screen keyboard.',
       },
       {
         title: 'Connect Keycard Shell to MetaMask',
-        to: '/docs/procedures/user-docs/keycard/connect-keycard-shell-to-metamask',
+        to: '/docs/user-docs/keycard/connect-keycard-shell-to-metamask',
         audience: 'MetaMask users',
         blurb:
           'Pairing the device with MetaMask so transactions are signed on hardware rather than in the browser.',

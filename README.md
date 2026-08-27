@@ -21,7 +21,7 @@ npx tsc --noEmit  # typecheck the TSX pages and config
 ## Add a writing sample
 
 1. Drop the Markdown file into a category folder under `docs/` — for example
-   `docs/procedures/`.
+   `docs/dev-docs/` or `docs/user-docs/<client>/`.
 2. Give it frontmatter:
 
    ```yaml
@@ -76,7 +76,7 @@ with it.
 ## Imported help articles
 
 Two sets of help-centre articles are reproduced under
-`docs/procedures/user-docs/`, one folder per client, with the rest linked to
+`docs/user-docs/`, one folder per client, with the rest linked to
 their live pages:
 
 | Client | Source | Licence | Reproduced |

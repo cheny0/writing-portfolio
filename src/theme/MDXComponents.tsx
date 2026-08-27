@@ -2,7 +2,7 @@
  * Global MDX component map.
  *
  * MDX resolves capitalized tags through this map, and a name that isn't here
- * fails the build. The Status help articles under `docs/procedures/user-docs/`
+ * fails the build. The help articles under `docs/user-docs/`
  * are imported close to verbatim, so every component they reference has to be
  * registered — including all 139 icons, which render nothing.
  */

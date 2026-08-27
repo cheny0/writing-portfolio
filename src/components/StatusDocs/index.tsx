@@ -1,7 +1,7 @@
 /**
  * Shims for the MDX components used by the Status help articles.
  *
- * The articles under `docs/procedures/user-docs/` are imported almost verbatim
+ * The articles under `docs/user-docs/` are imported almost verbatim
  * from status-im/status-web, where they render against Status's own component
  * library. That library isn't available here, so these stand in for it:
  *

@@ -40,7 +40,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/cheny0/writing-portfolio/tree/main/',
           // The sidebar indexes samples by product; tags index them by content
-          // type, at /docs/type/* and /docs/product/*. A tag that isn't
+          // type, at /docs/tags/type/* and /docs/tags/product/*. A tag that isn't
           // declared in docs/tags.yml fails the build rather than quietly
           // creating a one-item category.
           onInlineTags: 'throw',

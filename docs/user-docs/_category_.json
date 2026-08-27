@@ -1,0 +1,10 @@
+{
+  "label": "User docs",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "User docs",
+    "description": "Help-centre articles written for people using a product, not building on it. Imported from the Status and Keycard help centres."
+  }
+}
