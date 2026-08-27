@@ -21,6 +21,16 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
 
+  // Inter for body, Source Serif 4 for headings, JetBrains Mono for code.
+  // preconnect first so the font files aren't blocked behind the CSS request.
+  stylesheets: [
+    {href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap', rel: 'stylesheet'},
+  ],
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'}},
+    {tagName: 'link', attributes: {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous'}},
+  ],
+
   // `.md` files are parsed as CommonMark, `.mdx` as MDX. This lets you drop a
   // plain Markdown draft into `docs/` without escaping `<placeholders>` or `{braces}`.
   markdown: {
@@ -54,7 +64,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },

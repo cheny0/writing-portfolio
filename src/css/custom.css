@@ -1,30 +1,63 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global styles. Infima is bundled by the classic theme; everything below
+ * overrides its variables rather than fighting its selectors.
+ *
+ * The primary ramp is generated from one base colour per theme using Infima's
+ * own lightness scale (x0.9 / 0.85 / 0.7 dark, x1.1 / 1.15 / 1.3 light), so the
+ * seven shades stay consistent. Both bases clear WCAG AA for body text against
+ * their background: 6.9:1 on white, 6.5:1 on the dark background.
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Steel blue — base #1d5c8f */
+  --ifm-color-primary: #1d5c8f;
+  --ifm-color-primary-dark: #1a5381;
+  --ifm-color-primary-darker: #194e7a;
+  --ifm-color-primary-darkest: #144064;
+  --ifm-color-primary-light: #20659d;
+  --ifm-color-primary-lighter: #216aa4;
+  --ifm-color-primary-lightest: #2678ba;
+
+  /* Serif headings against a sans body: the pairing reads as editorial rather
+     than as a default docs site, which is the point of a writing portfolio. */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: 'Source Serif 4', Georgia, Cambria,
+    'Times New Roman', serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular,
+    'SF Mono', Menlo, Consolas, monospace;
+
+  --ifm-heading-font-weight: 600;
+  --ifm-heading-line-height: 1.25;
+  --ifm-line-height-base: 1.7;
+  --ifm-code-font-size: 92%;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Lightened for contrast against the dark background — base #5ba7d9 */
+  --ifm-color-primary: #5ba7d9;
+  --ifm-color-primary-dark: #429ad3;
+  --ifm-color-primary-darker: #3593d0;
+  --ifm-color-primary-darkest: #297aaf;
+  --ifm-color-primary-light: #74b4df;
+  --ifm-color-primary-lighter: #81bbe2;
+  --ifm-color-primary-lightest: #a6cfea;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* The navbar brand is the site's wordmark, so it takes the heading serif. */
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.15rem;
+}
+
+/* Imported help articles carry wide permission and comparison tables. Let them
+   scroll inside the article instead of stretching the page. */
+.markdown table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
 }
