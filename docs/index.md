@@ -28,16 +28,30 @@ result.
 | [Transfer native tokens on the Logos Execution Zone](./procedures/transfer-native-tokens-on-the-logos-execution-zone.md) | LEZ users | Sending native tokens between public and private accounts with the wallet CLI |
 | [Create and transfer custom tokens on the Logos Execution Zone](./procedures/create-and-transfer-custom-tokens-on-the-logos-execution-zone.md) | LEZ users | Defining a custom token with the LEZ token program and transferring it |
 
-### User docs — Status help centre
+### User docs — Status
 
 Help-centre articles for people using the app rather than building on it.
 Imported from the Status help set, reviewed by `jorge-campo`.
 
 | Sample | Type | What it covers |
 | --- | --- | --- |
-| [How to run a Status Community: your quick start guide](./procedures/user-docs/how-to-run-a-status-community.mdx) | Orientation | Setting up channels, controlling membership, and using tokens to manage permissions |
-| [About voting to change the community visibility](./procedures/user-docs/about-voting-to-change-the-community-visibility.mdx) | Concept | How SNT holders vote to feature a community or change its visibility, and what each step costs |
-| [Sync your profile across devices](./procedures/user-docs/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
+| [How to run a Status Community: your quick start guide](./procedures/user-docs/status/how-to-run-a-status-community.mdx) | Orientation | Setting up channels, controlling membership, and using tokens to manage permissions |
+| [About voting to change the community visibility](./procedures/user-docs/status/about-voting-to-change-the-community-visibility.mdx) | Concept | How SNT holders vote to feature a community or change its visibility, and what each step costs |
+| [Sync your profile across devices](./procedures/user-docs/status/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
+
+### User docs — Keycard
+
+Help-centre articles for Keycard Shell, a hardware wallet and air-gapped
+transaction signer. I wrote 12 of the 31 articles in the Keycard help centre.
+Three are reproduced here; the rest are listed in
+[More Keycard writing](./procedures/user-docs/keycard/more-keycard-writing.md)
+and link to their live pages, because that repository declares no licence.
+
+| Sample | Type | What it covers |
+| --- | --- | --- |
+| [Set up your Keycard with Keycard Shell](./procedures/user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | Procedure | Setting a PIN and duress PIN, then loading a key pair onto the card |
+| [Get to know your Keycard Shell](./procedures/user-docs/keycard/get-to-know-your-keycard-shell.mdx) | Orientation | The controls on the device, its keypad, and the on-screen keyboard |
+| [Connect Keycard Shell to MetaMask](./procedures/user-docs/keycard/connect-keycard-shell-to-metamask.mdx) | Integration | Pairing the device with MetaMask so signing happens off the browser |
 
 ## How I work
 

@@ -1,0 +1,10 @@
+{
+  "label": "Keycard",
+  "position": 2,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Keycard",
+    "description": "Help-centre articles for Keycard Shell, a hardware wallet and transaction signer."
+  }
+}

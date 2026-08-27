@@ -60,24 +60,51 @@ const groups: Group[] = [
     samples: [
       {
         title: 'How to run a Status Community: your quick start guide',
-        to: '/docs/procedures/user-docs/how-to-run-a-status-community',
+        to: '/docs/procedures/user-docs/status/how-to-run-a-status-community',
         audience: 'Community owners',
         blurb:
           'Setting up channels, controlling who can join, and using tokens to manage permissions and roles.',
       },
       {
         title: 'About voting to change the community visibility',
-        to: '/docs/procedures/user-docs/about-voting-to-change-the-community-visibility',
+        to: '/docs/procedures/user-docs/status/about-voting-to-change-the-community-visibility',
         audience: 'SNT holders',
         blurb:
           'How voting to feature a community or change its visibility works, and what each step of the vote costs.',
       },
       {
         title: 'Sync your profile across devices',
-        to: '/docs/procedures/user-docs/sync-your-profile-across-devices',
+        to: '/docs/procedures/user-docs/status/sync-your-profile-across-devices',
         audience: 'Status users',
         blurb:
           'Pairing a new device on mobile and desktop, and turning syncing off again.',
+      },
+    ],
+  },
+  {
+    heading: 'Keycard — hardware wallet documentation',
+    note: 'I wrote 12 of the 31 articles in the Keycard help centre. Three are reproduced here; the rest link to keycard.tech.',
+    samples: [
+      {
+        title: 'Set up your Keycard with Keycard Shell',
+        to: '/docs/procedures/user-docs/keycard/set-up-your-keycard-with-keycard-shell',
+        audience: 'New Keycard owners',
+        blurb:
+          'Setting a PIN and a duress PIN, then loading a key pair onto the card using Keycard Shell.',
+      },
+      {
+        title: 'Get to know your Keycard Shell',
+        to: '/docs/procedures/user-docs/keycard/get-to-know-your-keycard-shell',
+        audience: 'New Keycard owners',
+        blurb:
+          'Hardware orientation: the controls on each side of the device, the keypad, and the on-screen keyboard.',
+      },
+      {
+        title: 'Connect Keycard Shell to MetaMask',
+        to: '/docs/procedures/user-docs/keycard/connect-keycard-shell-to-metamask',
+        audience: 'MetaMask users',
+        blurb:
+          'Pairing the device with MetaMask so transactions are signed on hardware rather than in the browser.',
       },
     ],
   },

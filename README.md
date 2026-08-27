@@ -57,13 +57,29 @@ The sidebar is generated from the folder structure, so no `sidebars.ts` edit is
 needed. A category folder with no documents in it fails the build — add the
 folder and its first document together.
 
-## Imported Status help articles
+## Imported help articles
 
-`docs/procedures/user-docs/` holds articles imported near-verbatim from
-[status-im/status-web](https://github.com/status-im/status-web) (MPL-2.0).
-They render against Status's own component library, which isn't available here,
-so `src/components/StatusDocs/` shims it and `src/theme/MDXComponents.tsx`
-registers the shims globally:
+Two sets of help-centre articles are reproduced under
+`docs/procedures/user-docs/`, one folder per client, with the rest linked to
+their live pages:
+
+| Client | Source | Licence | Reproduced |
+| --- | --- | --- | --- |
+| Status | [status-im/status-web](https://github.com/status-im/status-web) | MPL-2.0 | 3 articles |
+| Keycard | [keycard-tech/keycard-website](https://github.com/keycard-tech/keycard-website) | none declared | 3 of 12, rest linked |
+
+Keycard declares no licence, so only a few articles are reproduced and
+`keycard/more-keycard-writing.md` links out to the remaining nine. Keep that
+split unless Keycard confirms otherwise. Keycard images are copied into
+`static/img/keycard/` because they are repo assets upstream, not hosted URLs.
+
+### The Status component shim
+
+The Status articles render against Status's own component library, which isn't
+available here, so `src/components/StatusDocs/` shims it and
+`src/theme/MDXComponents.tsx` registers the shims globally. The Keycard
+articles use `<Admonition>` and the `<Table>` family too, so the same shim
+covers them:
 
 | Status component | Rendered as |
 | --- | --- |
