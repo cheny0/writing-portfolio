@@ -44,6 +44,6 @@ Markdown, Docusaurus, GitBook, Git and GitHub, Vale, the `gh` CLI, UNKNOWN.
 
 ## Contact
 
-- GitHub: [cheny0](https://github.com/cheny0)
-- Email: UNKNOWN
-- LinkedIn: UNKNOWN
+- Email: [chen.yang.1@outlook.com](mailto:chen.yang.1@outlook.com)
+- LinkedIn: [linkedin.com/in/cyang11](https://www.linkedin.com/in/cyang11/)
+- GitHub: [github.com/cheny0](https://github.com/cheny0)

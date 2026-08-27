@@ -70,26 +70,6 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Portfolio',
-          items: [
-            {label: 'Writing samples', to: '/docs/'},
-            {label: 'About', to: '/about'},
-          ],
-        },
-        {
-          title: 'Elsewhere',
-          items: [
-            {label: 'GitHub', href: 'https://github.com/cheny0'},
-            {label: 'Logos docs', href: 'https://github.com/logos-co/logos-docs'},
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Chen Yang. Built with Docusaurus.`,
-    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
