@@ -28,6 +28,17 @@ result.
 | [Transfer native tokens on the Logos Execution Zone](./procedures/transfer-native-tokens-on-the-logos-execution-zone.md) | LEZ users | Sending native tokens between public and private accounts with the wallet CLI |
 | [Create and transfer custom tokens on the Logos Execution Zone](./procedures/create-and-transfer-custom-tokens-on-the-logos-execution-zone.md) | LEZ users | Defining a custom token with the LEZ token program and transferring it |
 
+### User docs — Status help centre
+
+Help-centre articles for people using the app rather than building on it.
+Imported from the Status help set, co-authored with `jorge-campo`.
+
+| Sample | Type | What it covers |
+| --- | --- | --- |
+| [How to run a Status Community: your quick start guide](./procedures/user-docs/how-to-run-a-status-community.mdx) | Orientation | Setting up channels, controlling membership, and using tokens to manage permissions |
+| [About voting to change the community visibility](./procedures/user-docs/about-voting-to-change-the-community-visibility.mdx) | Concept | How SNT holders vote to feature a community or change its visibility, and what each step costs |
+| [Sync your profile across devices](./procedures/user-docs/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
+
 ## How I work
 
 - **Evidence first.** Source repositories, PRs, and RFCs before prose. Every

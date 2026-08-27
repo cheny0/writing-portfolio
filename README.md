@@ -57,6 +57,32 @@ The sidebar is generated from the folder structure, so no `sidebars.ts` edit is
 needed. A category folder with no documents in it fails the build — add the
 folder and its first document together.
 
+## Imported Status help articles
+
+`docs/procedures/user-docs/` holds articles imported near-verbatim from
+[status-im/status-web](https://github.com/status-im/status-web) (MPL-2.0).
+They render against Status's own component library, which isn't available here,
+so `src/components/StatusDocs/` shims it and `src/theme/MDXComponents.tsx`
+registers the shims globally:
+
+| Status component | Rendered as |
+| --- | --- |
+| `<Admonition type>` | the matching Docusaurus admonition |
+| `<Tabs>` / `<TabsList>` / `<TabsTrigger>` / `<TabsContent>` | Docusaurus `<Tabs>` / `<TabItem>` |
+| `<Table>` family | a plain HTML table |
+| `<ContextTag>` | an inline chip (the icon is dropped) |
+| `*Icon` (139 of them) | nothing |
+
+Two consequences worth knowing. Icons that appear beside UI labels on
+status.app are missing here, so a step reads "tap **Wallet**" without its icon.
+And a `<TabsTrigger disabled>` — a platform Status hasn't shipped — is dropped
+rather than rendered as an empty tab.
+
+All 139 icon names are registered, not just the ones currently used, so
+importing another article won't fail the build on an unknown component. These
+files must stay `.mdx`: `.md` is parsed as CommonMark and would print the JSX
+as literal text.
+
 ## Deployment
 
 `.github/workflows/deploy.yml` builds and publishes on every push to `main`.

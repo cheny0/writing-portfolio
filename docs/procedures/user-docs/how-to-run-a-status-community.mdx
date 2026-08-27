@@ -1,0 +1,102 @@
+---
+title: "How to run a Status Community: your quick start guide"
+sidebar_position: 1
+description: >-
+  A quick-start orientation for Status Community owners: setting up channels, controlling membership, and using tokens to manage permissions.
+---
+
+:::info Sample
+
+Written for [Status](https://status.app/). Co-authored with [jorge-campo](https://github.com/jorge-campo). Published at [status.app/help/communities/how-to-run-a-status-community-your-quick-start-guide](https://status.app/help/communities/how-to-run-a-status-community-your-quick-start-guide).
+
+Reproduced from [status-im/status-web](https://github.com/status-im/status-web) under the [MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/) licence.
+
+:::
+
+<Admonition type="info">
+  You can only create and administer communities using the Status desktop app.
+</Admonition>
+
+A [Status Community](https://status.app/help/communities/how-to-use-status-communities-your-quick-start-guide) is a virtual space for like-minded people to exchange ideas and collaborate.
+
+As a community Owner, you have the autonomy to oversee membership and administration. This helps you manage how the community works and ensures it's a place where people can enjoy and stay involved.
+
+## Set up your community and channels
+
+First, [create your community](https://status.app/help/communities/create-a-status-community) and set up channels in the community. Think of channels as rooms, each with a unique theme, helping keep discussions focused and organized.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1697186301/Help/Documentation%20Screens/Communities/108/108_1_Screen_Light.png)
+
+<Tabs defaultValue="Community 1">
+  <TabsList size={32}>
+    <TabsTrigger type="step" value="Community 1" step={1}>
+      Community
+    </TabsTrigger>
+
+    <TabsTrigger type="step" value="Channels 2" step={2}>
+      Channels
+    </TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="Community 1">
+    [Create](https://status.app/help/communities/create-a-status-community) a community and [customize](https://status.app/help/communities/customize-your-community) it according to the specific topic and style of your choice. If you already operate a Discord community server, you can [import it into Status](https://status.app/help/communities/import-a-discord-community-into-status).
+  </TabsContent>
+
+  <TabsContent value="Channels 2">
+    In your community, you can [set up channels](https://status.app/help/communities/create-a-channel) for different discussion topics, [customize](https://status.app/help/communities/customize-your-channel) and categorize them.
+  </TabsContent>
+</Tabs>
+
+## Administer your members and membership
+
+As the community Owner, you have control over how Status users can access your community.
+
+<Admonition type="info">
+  When you create a community, it's a [private community](https://status.app/help/communities/about-the-different-types-of-status-communities) by default, but SNT holders can [vote to make it public](https://status.app/help/communities/vote-to-make-a-community-private-or-public).
+</Admonition>
+
+### Increase members
+
+After you create the community, anyone who has viewed your community page can [invite people to join](https://status.app/help/communities/invite-people-to-a-status-community) by (1) sending the community to contacts in Status, or sharing the (2) QR code or (3) link to your community with others.
+
+To increase your community visibility, you can [initiate a vote](https://status.app/help/communities/vote-to-make-a-community-private-or-public) to add your community in the Discover Communities section.
+
+![](https://res.cloudinary.com/dhgck7ebz/image/upload/v1697194084/Help/Documentation%20Screens/Communities/108/108_2_Screen_Light.png)
+
+### Control how members join your community
+
+There are [two factors](https://status.app/help/communities/about-the-different-types-of-status-communities) to control who can join your community. You can set token requirements for joining your [community](https://status.app/help/communities/set-up-a-token-gated-community) or specific [channels](https://status.app/help/communities/set-up-a-token-gated-channel). Additionally, you can turn on [manual approval for join requests](https://status.app/help/communities/set-up-your-community-join-requests).
+
+For example, suppose you're a digital artist who wants to create a community only for those owning your art. In this case, you could create a token-gated community requiring members to hold the collectibles you issued. If you want to verify users' identities before they join, you could enable manual approval for join requests.
+
+Additionally, if a community member misbehaves, you can [kick or ban the user](https://status.app/help/communities/kick-or-ban-someone-from-your-community).
+
+## Manage your community using tokens
+
+Tokens serve as a means for you to motivate members and manage permissions. You can [mint](https://status.app/help/communities/mint-tokens-for-your-community) and [airdrop](https://status.app/help/communities/how-to-airdrop-tokens-in-status) tokens including virtual coins and collectibles within your community.
+
+In Status Communities, there are four roles: member, [Owner, TokenMaster and Admin](https://status.app/help/communities/about-the-management-roles-in-status-communities). Different roles can [perform different tasks](https://status.app/help/communities/permissions-by-role-in-status-communities) like deleting messages or editing community settings.
+
+### Customize permissions
+
+As the community Owner, you have full access to all permissions, and you can [customize the permissions your members hold](https://status.app/help/communities/set-up-your-community-permissions). The easiest method to do this is by using ENS domains.
+
+For example, you can [grant exclusive excess](https://status.app/help/communities/grant-exclusive-access-with-tokens) by setting a rule that members must hold a certain token to post in specific channels.
+
+### Delegate management functions
+
+If you want someone to help you with community administration, you can [delegate management functions to other people](https://status.app/help/communities/delegate-management-functions-to-your-community). The easiest method to do this is by using ENS domains.
+
+### Encourage participation
+
+Tokens can function as a tool to incentivize active participation among your members. For example, a game developer could create and distribute exclusive virtual items only to those who demonstrate high engagement within the community.
+
+## Ensure your community operation
+
+After creating a community, your computer becomes a [control node](https://status.app/help/communities/about-the-control-node-in-status-communities), taking on the responsibility of maintenance and administration. To provide the best experience for your members, Keep Status desktop running with your owner profile online daily or at least once every six days.
+
+The community's control node carries out crucial tasks for your community, such as [membership administration](#administer-your-members-and-membership), [token-based requirements](#manage-your-community-using-tokens) or maintaining historical messages via the [Community History Service](https://status.app/help/communities/about-the-community-history-service) (CHS).
+
+<Admonition type="tip">
+  [Turning off the CHS](https://status.app/help/communities/turn-off-the-community-history-service) significantly reduces community members' experience. Keep it on unless it's really necessary.
+</Admonition>

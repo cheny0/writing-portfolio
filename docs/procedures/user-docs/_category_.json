@@ -1,0 +1,10 @@
+{
+  "label": "User docs",
+  "position": 5,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "User docs",
+    "description": "Help-centre articles written for people using the app, not building on it. Imported from the Status help set."
+  }
+}

@@ -1,0 +1,35 @@
+/* Styling for the Status help-article shims. Colors come from Infima
+   variables so light and dark mode both work. */
+
+.contextTag {
+  display: inline-block;
+  padding: 0.05em 0.4em;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  background: var(--ifm-color-emphasis-100);
+  font-size: 0.9em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.externalIcon {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-left: 0.15em;
+}
+
+/* Some imported tables are wide; scroll them instead of the page body. */
+.tableWrapper {
+  overflow-x: auto;
+  margin-bottom: var(--ifm-spacing-vertical);
+}
+
+.tableWrapper table {
+  display: table;
+  width: 100%;
+}
+
+/* Cells hold whole ordered lists in the Status originals. */
+.tableWrapper td > :last-child {
+  margin-bottom: 0;
+}
