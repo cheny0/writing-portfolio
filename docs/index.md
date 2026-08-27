@@ -31,7 +31,7 @@ result.
 ### User docs — Status help centre
 
 Help-centre articles for people using the app rather than building on it.
-Imported from the Status help set, co-authored with `jorge-campo`.
+Imported from the Status help set, reviewed by `jorge-campo`.
 
 | Sample | Type | What it covers |
 | --- | --- | --- |

@@ -56,7 +56,7 @@ const groups: Group[] = [
   },
   {
     heading: 'Status — user documentation',
-    note: 'Help-centre articles for people using the Status app, co-authored with jorge-campo.',
+    note: 'Help-centre articles for people using the Status app, reviewed by jorge-campo.',
     samples: [
       {
         title: 'How to run a Status Community: your quick start guide',
