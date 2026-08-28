@@ -142,10 +142,9 @@ function Hero() {
         </Heading>
         <p className={styles.heroTagline}>{siteConfig.tagline}</p>
         <p className={styles.heroBody}>
-          I write user and developer documentation for open source software,
-          using a docs as code workflow alongside distributed, multinational
-          teams. Everything here is published, and each sample links to the live
-          version.
+          I write user and developer documentation for open-source software,
+          following a docs-as-code workflow and working with distributed,
+          multinational teams.
         </p>
         <div className={styles.heroActions}>
           <Link className="button button--primary button--lg" to="/docs/">
