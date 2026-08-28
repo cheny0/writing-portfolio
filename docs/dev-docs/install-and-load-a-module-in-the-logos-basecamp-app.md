@@ -6,13 +6,13 @@ description: >-
 tags: [procedure, logos]
 ---
 
-:::info Sample
+#### Get a Logos Module onto your machine and run it from the Basecamp Modules view.
+
+:::info[Sample]
 
 Written for [Logos](https://logos.co/). Published at [docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp](https://docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp).
 
 :::
-
-#### Get a Logos Module onto your machine and run it from the Basecamp Modules view.
 
 Logos Modules are background services that Basecamp runs in isolated `logos_host` subprocesses to provide features like peer-to-peer networking, storage, or wallets. This procedure walks you through installing a module package into Basecamp and loading it from the Modules view, so the module is available to any UI App that depends on it. Run it once per module you want available on a fresh Basecamp install — for example, to add `waku_module` before loading a chat UI App.
 

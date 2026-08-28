@@ -6,13 +6,13 @@ description: >-
 tags: [procedure, logos]
 ---
 
-:::info Sample
+#### Use the wallet CLI to create custom tokens and transfer them between public and private accounts.
+
+:::info[Sample]
 
 Written for [Logos](https://logos.co/). Published at [docs.logos.co/lez/transfer-tokens/create-and-transfer-custom-tokens-on-the-logos-execution-zone](https://docs.logos.co/lez/transfer-tokens/create-and-transfer-custom-tokens-on-the-logos-execution-zone).
 
 :::
-
-#### Use the wallet CLI to create custom tokens and transfer them between public and private accounts.
 
 :::tip[Version]
 This document is accurate for **Testnet v0.2.1**.

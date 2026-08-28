@@ -6,13 +6,13 @@ description: >-
 tags: [procedure, logos]
 ---
 
-:::info Sample
+#### Scaffold, build, package, and test a core module on Logos.
+
+:::info[Sample]
 
 Written for [Logos](https://logos.co/). Published at [docs.logos.co/core/build-modules/build-and-run-a-logos-core-module](https://docs.logos.co/core/build-modules/build-and-run-a-logos-core-module).
 
 :::
-
-#### Scaffold, build, package, and test a core module on Logos.
 
 :::tip[Version]
 This document is accurate for **Testnet v0.2.1**.
