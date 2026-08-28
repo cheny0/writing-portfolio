@@ -148,7 +148,7 @@ function Hero() {
         </p>
         <div className={styles.heroActions}>
           <Link className="button button--primary button--lg" to="/docs/">
-            Read the writing samples
+            Read the samples
           </Link>
           <Link className="button button--secondary button--lg" to="/about">
             About me
