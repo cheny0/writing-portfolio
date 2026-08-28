@@ -87,6 +87,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://www.linkedin.com/in/cyang11/',
+          label: 'LinkedIn',
+          position: 'right',
+        },
       ],
     },
     prism: {
