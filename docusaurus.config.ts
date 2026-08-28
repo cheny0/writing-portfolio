@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Chen Yang',
-  tagline: 'Technical writer | User and developer documentation',
+  tagline: 'Technical writer',
   favicon: 'img/favicon.ico',
 
   future: {

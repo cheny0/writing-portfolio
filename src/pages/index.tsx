@@ -143,8 +143,8 @@ function Hero() {
         <p className={styles.heroTagline}>{siteConfig.tagline}</p>
         <p className={styles.heroBody}>
           I write user and developer documentation for open source software,
-          using a docs as code workflow alongside distributed engineering teams.
-          Everything here is published, and each sample links to the live
+          using a docs as code workflow alongside distributed, multinational
+          teams. Everything here is published, and each sample links to the live
           version.
         </p>
         <div className={styles.heroActions}>
