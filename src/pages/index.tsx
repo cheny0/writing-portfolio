@@ -144,7 +144,8 @@ function Hero() {
         <p className={styles.heroBody}>
           I write user and developer documentation for open-source software,
           following a docs-as-code workflow and working with distributed,
-          multinational teams.
+          multinational teams. Everything here is published, and each sample
+          links to the live version.
         </p>
         <div className={styles.heroActions}>
           <Link className="button button--primary button--lg" to="/docs/">
