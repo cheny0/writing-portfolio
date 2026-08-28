@@ -8,7 +8,7 @@ tags: [procedure, logos]
 
 #### Scaffold, build, package, and test a core module on Logos.
 
-:::info[Sample]
+:::sample
 
 Written for [Logos](https://logos.co/). Published at [docs.logos.co/core/build-modules/build-and-run-a-logos-core-module](https://docs.logos.co/core/build-modules/build-and-run-a-logos-core-module).
 

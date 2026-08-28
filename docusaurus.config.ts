@@ -54,6 +54,10 @@ const config: Config = {
           // declared in docs/tags.yml fails the build rather than quietly
           // creating a one-item category.
           onInlineTags: 'throw',
+          // `sample` is the provenance note on each imported document. It is
+          // rendered by src/theme/Admonition/Types.tsx, deliberately unlike the
+          // articles' own callouts.
+          admonitions: {keywords: ['sample'], extendDefaults: true},
         },
         blog: false,
         theme: {

@@ -1,0 +1,31 @@
+/* Deliberately unlike an Infima alert. Every Infima alert is a filled, rounded,
+   icon-led box; this is an unfilled dashed outline with a quiet label, so it
+   reads as apparatus attached to the document rather than as something the
+   document says. It recedes on purpose — metadata should be quieter than the
+   content it describes. */
+
+.sample {
+  margin: 0 0 var(--ifm-spacing-vertical);
+  padding: 0.8rem 1rem;
+  border: 1px dashed var(--ifm-color-emphasis-400);
+  background: none;
+}
+
+.label {
+  margin: 0 0 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.body {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.body > :last-child {
+  margin-bottom: 0;
+}
