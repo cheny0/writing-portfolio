@@ -77,9 +77,9 @@ with it.
 
 Each imported sample opens with a `:::sample` callout saying who it was written
 for and where it is published. `sample` is a custom admonition type registered
-in `docusaurus.config.ts` and rendered by `src/theme/Admonition/Types.tsx` as an
-unfilled `<aside>` — deliberately unlike an Infima alert, so it doesn't read as
-one of the article's own callouts. It sits below whatever opens the article (a
+in `docusaurus.config.ts` and rendered by `src/theme/Admonition/Types.tsx` as a
+byline-style `<aside>`: an accent rule and a small inline label, with no box,
+fill, or icon, so it doesn't read as one of the article's own callouts. It sits below whatever opens the article (a
 `####` standfirst, a hero image) rather than between the title and its subtitle.
 
 Note that Docusaurus 3 requires an admonition title in brackets —
