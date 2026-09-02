@@ -69,14 +69,3 @@ and link to their live pages, because that repository declares no licence.
 | [Set up your Keycard with Keycard Shell](./user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | Procedure | Setting a PIN and duress PIN, then loading a key pair onto the card |
 | [Get to know your Keycard Shell](./user-docs/keycard/get-to-know-your-keycard-shell.mdx) | Orientation | The controls on the device, its keypad, and the on-screen keyboard |
 | [Connect Keycard Shell to MetaMask](./user-docs/keycard/connect-keycard-shell-to-metamask.mdx) | Integration | Pairing the device with MetaMask so signing happens off the browser |
-
-## How I work
-
-- **Evidence first.** Source repositories, PRs, and RFCs before prose. Every
-  claim traces back to something I read, ran, or was told by an engineer.
-- **Templates as specs.** Each document type has an authoritative template that
-  fixes the section order and what belongs in each one, so readers can navigate
-  a document type they've seen before.
-- **Tested commands.** Code blocks are run, not paraphrased.
-
-See [About](/about) for background and contact details.

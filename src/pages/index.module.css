@@ -41,44 +41,6 @@
   margin-bottom: 1.75rem;
 }
 
-.card {
-  display: block;
-  height: 100%;
-  padding: 1.5rem;
-  border: 1px solid var(--ifm-toc-border-color);
-  border-radius: var(--ifm-global-radius);
-  background: var(--ifm-background-surface-color);
-  color: inherit;
-  transition: border-color var(--ifm-transition-fast),
-    transform var(--ifm-transition-fast);
-}
-
-.card:hover {
-  border-color: var(--ifm-color-primary);
-  text-decoration: none;
-  color: inherit;
-  transform: translateY(-2px);
-}
-
-.cardAudience {
-  display: inline-block;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--ifm-color-primary);
-  margin-bottom: 0.5rem;
-}
-
-.cardTitle {
-  font-size: 1.15rem;
-  margin-bottom: 0.5rem;
-}
-
-.cardBlurb {
-  color: var(--ifm-color-emphasis-700);
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 996px) {
   .hero {
     padding: 3rem 0 2.5rem;
@@ -89,21 +51,13 @@
   }
 }
 
-.group {
-  margin-bottom: 2.5rem;
+.principleTitle {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
 }
 
-.group:last-child {
-  margin-bottom: 0;
-}
-
-.groupHeading {
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
-}
-
-.groupNote {
+.principleBody {
   color: var(--ifm-color-emphasis-700);
   font-size: 0.95rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
