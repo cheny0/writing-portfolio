@@ -10,7 +10,9 @@ tags: [procedure, logos]
 
 :::sample
 
-Written for [Logos](https://logos.co/). Published at [docs.logos.co/lez/transfer-tokens/transfer-native-tokens-on-the-logos-execution-zone](https://docs.logos.co/lez/transfer-tokens/transfer-native-tokens-on-the-logos-execution-zone).
+Written for [Logos](https://logos.co/).
+
+[View the published version ↗](https://docs.logos.co/lez/transfer-tokens/transfer-native-tokens-on-the-logos-execution-zone)
 
 :::
 

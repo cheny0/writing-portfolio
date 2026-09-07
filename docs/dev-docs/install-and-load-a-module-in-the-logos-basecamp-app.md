@@ -10,7 +10,9 @@ tags: [procedure, logos]
 
 :::sample
 
-Written for [Logos](https://logos.co/). Published at [docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp](https://docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp).
+Written for [Logos](https://logos.co/).
+
+[View the published version ↗](https://docs.logos.co/basecamp/install-and-load-a-module-in-logos-basecamp)
 
 :::
 

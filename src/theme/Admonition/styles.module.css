@@ -1,15 +1,12 @@
-/* Not a callout: no box, no fill, no icon. A left accent rule and a small
-   inline label mark it as apparatus attached to the document, in the way a
-   byline or a standfirst is marked, rather than as a panel the document
-   contains. */
+/* Not a callout: no box, no fill, no icon. An accent rule marks the block, the
+   sentences are italic to set them off from the document's own voice, and the
+   source is a link styled as a small outlined button rather than a URL buried
+   in a sentence. */
 
 .sample {
   margin: 0 0 var(--ifm-spacing-vertical);
   padding-left: 0.9rem;
   border-left: 3px solid var(--ifm-color-primary);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: var(--ifm-color-emphasis-700);
 }
 
 .label {
@@ -21,16 +18,37 @@
   margin-right: 0.5rem;
 }
 
+/* First paragraph: the provenance sentences. */
 .sample p {
   display: inline;
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
 }
 
-/* A second paragraph (the licence note) starts a new line without a gap. */
-.sample p + p {
-  display: block;
-  margin-top: 0.4rem;
-}
-
+/* Last paragraph: the link to the published version, as a button. */
 .sample p:last-child {
-  margin-bottom: 0;
+  display: block;
+  margin: 0.6rem 0 0;
+  font-style: normal;
+}
+
+.sample p:last-child a {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: var(--ifm-global-radius);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: background var(--ifm-transition-fast),
+    color var(--ifm-transition-fast);
+}
+
+.sample p:last-child a:hover {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+  text-decoration: none;
 }

@@ -10,7 +10,9 @@ tags: [procedure, logos]
 
 :::sample
 
-Written for [Logos](https://logos.co/). Published at [docs.logos.co/core/build-modules/build-and-run-a-logos-core-module](https://docs.logos.co/core/build-modules/build-and-run-a-logos-core-module).
+Written for [Logos](https://logos.co/).
+
+[View the published version ↗](https://docs.logos.co/core/build-modules/build-and-run-a-logos-core-module)
 
 :::
 
