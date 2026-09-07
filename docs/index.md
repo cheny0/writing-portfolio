@@ -6,13 +6,11 @@ sidebar_label: Overview
 description: Developer documentation samples — procedures, tutorials, and references for distributed-systems products.
 ---
 
-Each sample below is a document I researched, structured, and wrote end to end.
-Every one of them is published; each sample links to the live version.
+Each sample below is a document I researched, structured, and wrote end to end. Every one of them is published. Each sample links to the live version.
 
 ## Browse by type
 
-The samples below are grouped by product. To read across products by what kind
-of document each one is:
+The samples are grouped by product. To read across products by what kind of document each one is:
 
 | | | |
 | --- | --- | --- |
@@ -21,18 +19,20 @@ of document each one is:
 
 ## Dev docs
 
-Documentation for developers building on a product. All four are procedures:
-task-based documents that get a reader from a starting state to a verified
-result.
+Documentation for developers using or building on a product.
 
-### Logos Core — building and running modules
+### Logos Core
+
+Logos Core is a tool for building and running modules on the Logos Blockchain.
 
 | Sample | Audience | What it covers |
 | --- | --- | --- |
 | [Build and run a Logos core module](./dev-docs/build-and-run-a-logos-core-module.md) | C++ developers | Scaffolding, building, packaging, and testing a non-UI business logic module |
 | [Install and load a module in the Logos Basecamp app](./dev-docs/install-and-load-a-module-in-the-logos-basecamp-app.md) | Basecamp users | Installing an `.lgx` package from the catalogue and loading it from the Modules view |
 
-### Logos Execution Zone — moving tokens
+### Logos Execution Zone
+
+The Logos Execution Zone is the execution layer of the Logos Blockchain.
 
 | Sample | Audience | What it covers |
 | --- | --- | --- |
@@ -41,11 +41,11 @@ result.
 
 ## User docs
 
-Help-centre articles for people using a product rather than building on it.
+Help articles for non-technical users.
 
 ### Status
 
-Reviewed by `jorge-campo`.
+The Status app is a secure wallet and communication tool, combining crypto wallet, messaging and communities.
 
 | Sample | Type | What it covers |
 | --- | --- | --- |
@@ -54,9 +54,9 @@ Reviewed by `jorge-campo`.
 | [Vote to make a community private or public](./user-docs/status/vote-to-make-a-community-private-or-public.mdx) | Procedure | Connecting a wallet, then initiating, casting, verifying, and finalising a visibility vote |
 | [Sync your profile across devices](./user-docs/status/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
 
-### Keycard
+### Keycard and Shell
 
-Keycard Shell is a hardware wallet and air-gapped transaction signer.
+Keycard is a hardware wallet in the form of a contactless smart card. Shell is a companion device for Keycard that lets you access additional Keycard features.
 
 | Sample | Type | What it covers |
 | --- | --- | --- |
