@@ -16,7 +16,7 @@ of document each one is:
 
 | | | |
 | --- | --- | --- |
-| [Procedure](./tags/type/procedure) — 7 | [Reference](./tags/type/reference) — 3 | [Concept](./tags/type/concept) — 1 |
+| [Procedure](./tags/type/procedure) — 7 | [Reference](./tags/type/reference) — 2 | [Concept](./tags/type/concept) — 1 |
 | [Quick start](./tags/type/quick-start) — 1 | [All tags](./tags) | |
 
 ## Dev docs
@@ -53,7 +53,6 @@ Reviewed by `jorge-campo`.
 | [About voting to change the community visibility](./user-docs/status/about-voting-to-change-the-community-visibility.mdx) | Concept | How SNT holders vote to feature a community or change its visibility, and what each step costs |
 | [Sync your profile across devices](./user-docs/status/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
 | [Understand your actions in Status](./user-docs/status/understand-your-actions-in-status.mdx) | Reference | Every action Status takes on your behalf, the data it touches, and the third parties involved |
-| [Permissions by role in Status Communities](./user-docs/status/permissions-by-role-in-status-communities.mdx) | Reference | Which management tasks each role — member, Admin, TokenMaster, Owner — can perform |
 
 ### Keycard
 
