@@ -3,12 +3,19 @@
 # so a typo can't quietly create a one-item category.
 
 # --- content type ---
-procedure:
-  label: Procedure
-  permalink: /type/procedure
+how-to:
+  label: How-to
+  permalink: /type/how-to
   description: >-
     Task-based documents that take a reader from a starting state to a verified
     result, with numbered steps.
+
+tutorial:
+  label: Tutorial
+  permalink: /type/tutorial
+  description: >-
+    Learning-oriented walkthroughs that build one working thing end to end,
+    rather than solving a single task in isolation.
 
 concept:
   label: Concept

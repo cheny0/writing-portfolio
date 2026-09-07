@@ -2,8 +2,8 @@
 title: Build and run a Logos core module
 sidebar_position: 1
 description: >-
-  A sectioned procedure for C++ developers: scaffolding, building, packaging, and testing a non-UI business logic module for Logos Core.
-tags: [procedure, logos]
+  A tutorial for C++ developers: scaffolding, building, packaging, and testing a non-UI business logic module for Logos Core.
+tags: [tutorial, logos]
 ---
 
 #### Scaffold, build, package, and test a core module on Logos.

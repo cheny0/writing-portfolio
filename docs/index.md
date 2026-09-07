@@ -3,7 +3,7 @@ title: Writing samples
 slug: /
 sidebar_position: 0
 sidebar_label: Overview
-description: Developer documentation samples — procedures, tutorials, and references for distributed-systems products.
+description: Documentation samples — how-to documents, tutorials, references, and concepts for distributed-systems products.
 ---
 
 Each sample below is a document I researched, structured, and wrote end to end. Every one of them is published. Each sample links to the live version.
@@ -14,8 +14,8 @@ The samples are grouped by product. To read across products by what kind of docu
 
 | | | |
 | --- | --- | --- |
-| [Procedure](./tags/type/procedure) — 8 | [Reference](./tags/type/reference) — 1 | [Concept](./tags/type/concept) — 2 |
-| [Quickstart](./tags/type/quick-start) — 1 | [All tags](./tags) | |
+| [How-to](./tags/type/how-to) — 6 | [Tutorial](./tags/type/tutorial) — 2 | [Reference](./tags/type/reference) — 1 |
+| [Concept](./tags/type/concept) — 2 | [Quickstart](./tags/type/quick-start) — 1 | [All tags](./tags) |
 
 ## Dev docs
 
@@ -51,8 +51,8 @@ The Status app is a secure wallet and communication tool, combining crypto walle
 | --- | --- | --- |
 | [How to run a Status Community: your quick start guide](./user-docs/status/how-to-run-a-status-community.mdx) | Quickstart | Setting up channels, controlling membership, and using tokens to manage permissions |
 | [About voting to change the community visibility](./user-docs/status/about-voting-to-change-the-community-visibility.mdx) | Concept | How SNT holders vote to feature a community or change its visibility, and what each step costs |
-| [Vote to make a community private or public](./user-docs/status/vote-to-make-a-community-private-or-public.mdx) | Procedure | Connecting a wallet, then initiating, casting, verifying, and finalising a visibility vote |
-| [Sync your profile across devices](./user-docs/status/sync-your-profile-across-devices.mdx) | Procedure | Pairing a new device on mobile and desktop, and turning syncing off |
+| [Vote to make a community private or public](./user-docs/status/vote-to-make-a-community-private-or-public.mdx) | How-to | Connecting a wallet, then initiating, casting, verifying, and finalising a visibility vote |
+| [Sync your profile across devices](./user-docs/status/sync-your-profile-across-devices.mdx) | How-to | Pairing a new device on mobile and desktop, and turning syncing off |
 
 ### Keycard and Shell
 
@@ -60,7 +60,7 @@ Keycard is a hardware wallet in the form of a contactless smart card. Shell is a
 
 | Sample | Type | What it covers |
 | --- | --- | --- |
-| [Set up your Keycard with Keycard Shell](./user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | Procedure | Setting a PIN and duress PIN, then loading a key pair onto the card |
+| [Set up your Keycard with Keycard Shell](./user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | How-to | Setting a PIN and duress PIN, then loading a key pair onto the card |
 | [Get to know your Keycard Shell](./user-docs/keycard/get-to-know-your-keycard-shell.mdx) | Quickstart | The controls on the device, its keypad, and the on-screen keyboard |
-| [Update Keycard Shell in air gapped mode](./user-docs/keycard/update-keycard-shell-in-air-gapped-mode.mdx) | Procedure | Updating firmware with no data connection, using an SD card |
+| [Update Keycard Shell in air gapped mode](./user-docs/keycard/update-keycard-shell-in-air-gapped-mode.mdx) | How-to | Updating firmware with no data connection, using an SD card |
 | [Understand the SLIP39 wallet backup standard](./user-docs/keycard/understand-the-slip-39-wallet-backup-standard.mdx) | Concept | Share-based backups: how a recovery phrase splits into shares, and what thresholds mean |
