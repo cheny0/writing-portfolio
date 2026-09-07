@@ -16,7 +16,7 @@ of document each one is:
 
 | | | |
 | --- | --- | --- |
-| [Procedure](./tags/type/procedure) — 7 | [Reference](./tags/type/reference) — 1 | [Concept](./tags/type/concept) — 1 |
+| [Procedure](./tags/type/procedure) — 8 | [Reference](./tags/type/reference) — 1 | [Concept](./tags/type/concept) — 2 |
 | [Quick start](./tags/type/quick-start) — 1 | [All tags](./tags) | |
 
 ## Dev docs
@@ -56,13 +56,11 @@ Reviewed by `jorge-campo`.
 
 ### Keycard
 
-Keycard Shell is a hardware wallet and air-gapped transaction signer. I wrote
-12 of the 31 articles in the Keycard help centre.
-Three are reproduced here; the rest are listed in
-[More Keycard writing](./user-docs/keycard/more-keycard-writing.md)
-and link to their live pages, because that repository declares no licence.
+Keycard Shell is a hardware wallet and air-gapped transaction signer.
 
 | Sample | Type | What it covers |
 | --- | --- | --- |
 | [Set up your Keycard with Keycard Shell](./user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | Procedure | Setting a PIN and duress PIN, then loading a key pair onto the card |
 | [Get to know your Keycard Shell](./user-docs/keycard/get-to-know-your-keycard-shell.mdx) | Orientation | The controls on the device, its keypad, and the on-screen keyboard |
+| [Update Keycard Shell in air gapped mode](./user-docs/keycard/update-keycard-shell-in-air-gapped-mode.mdx) | Procedure | Updating firmware with no data connection, using an SD card |
+| [Understand the SLIP39 wallet backup standard](./user-docs/keycard/understand-the-slip-39-wallet-backup-standard.mdx) | Concept | Share-based backups: how a recovery phrase splits into shares, and what thresholds mean |

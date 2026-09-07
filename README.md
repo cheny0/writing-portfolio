@@ -97,12 +97,16 @@ their live pages:
 | Client | Source | Licence | Reproduced |
 | --- | --- | --- | --- |
 | Status | [status-im/status-web](https://github.com/status-im/status-web) | MPL-2.0 | 3 articles |
-| Keycard | [keycard-tech/keycard-website](https://github.com/keycard-tech/keycard-website) | none declared | 3 of 12, rest linked |
+| Keycard | [keycard-tech/keycard-website](https://github.com/keycard-tech/keycard-website) | none declared | 4 articles |
 
-Keycard declares no licence, so only a few articles are reproduced and
-`keycard/more-keycard-writing.md` links out to the remaining nine. Keep that
-split unless Keycard confirms otherwise. Keycard images are copied into
-`static/img/keycard/` because they are repo assets upstream, not hosted URLs.
+Keycard declares no licence, so only a few articles are reproduced. Keycard
+images are copied into `static/img/keycard/` because they are repo assets
+upstream, not hosted URLs.
+
+Keycard articles carry no `author:` field, so the importer derives contributors
+from git history via a verified handle map. Check that history before adding
+one: a file you did not write will still import cleanly and be credited to you
+by implication.
 
 ### The Status component shim
 
