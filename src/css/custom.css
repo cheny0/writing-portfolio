@@ -57,3 +57,19 @@
   overflow-x: auto;
   max-width: 100%;
 }
+
+/* The Logos procedures open with a #### standfirst under the title. As an h4 it
+   renders smaller than body text and bold, so it reads as a bolded paragraph
+   rather than a subtitle. Set it as a deck instead: larger, lighter, muted. */
+.markdown > header + h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+}
+
+/* A subtitle is not a section, so it needs no anchor link. */
+.markdown > header + h4 .hash-link {
+  display: none;
+}
