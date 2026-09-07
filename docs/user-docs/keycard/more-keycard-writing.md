@@ -9,7 +9,7 @@ I wrote 12 of the 31 articles in the Keycard help centre, and about 62% of
 the total lines under `content/help` in
 [keycard-tech/keycard-website](https://github.com/keycard-tech/keycard-website).
 
-Three are reproduced in this portfolio. The rest are linked to their live pages,
+Two are reproduced in this portfolio. The rest are linked to their live pages,
 because the Keycard repository declares no licence and I would rather link than
 republish without asking.
 
@@ -20,7 +20,7 @@ republish without asking.
 | [About Keycard and Keycard Shell](https://keycard.tech/help/about-keycard-and-keycard-shell) | 445 | keycard.tech |
 | [Sign a transaction using Keycard Shell](https://keycard.tech/help/sign-a-transaction-using-keycard-shell) | 430 | keycard.tech |
 | [Get to know your Keycard Shell](./get-to-know-your-keycard-shell.mdx) | 417 | Reproduced here |
-| [Connect Keycard Shell to MetaMask](./connect-keycard-shell-to-metamask.mdx) | 368 | Reproduced here |
+| [Connect Keycard Shell to MetaMask](https://keycard.tech/help/connect-keycard-shell-to-metamask) | 368 | keycard.tech |
 | [Factory reset your Keycard using Keycard Shell](https://keycard.tech/help/factory-reset-your-keycard-using-keycard-shell) | 356 | keycard.tech |
 | [Verify Keycard Shell authenticity](https://keycard.tech/help/verify-keycard-shell-authenticity) | 310 | keycard.tech |
 | [Unblock your Keycard using Keycard Shell](https://keycard.tech/help/unblock-your-keycard-using-keycard-shell) | 291 | keycard.tech |
