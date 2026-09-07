@@ -46,3 +46,11 @@ keycard:
   label: Keycard
   permalink: /product/keycard
   description: Help-centre articles for Keycard Shell, a hardware wallet and transaction signer.
+
+# --- topic ---
+hardware:
+  label: Hardware
+  permalink: /topic/hardware
+  description: >-
+    Documents about physical devices — the Keycard Shell signer and the card
+    itself — rather than software alone.
