@@ -25,11 +25,11 @@ reference:
     read out of order rather than start to finish.
 
 quick-start:
-  label: Quick start
+  label: Quickstart
   permalink: /type/quick-start
   description: >-
-    Orientation documents that map a whole area and hand the reader off to the
-    detailed documents underneath.
+    Documents that map a whole area and hand the reader off to the detailed
+    documents underneath.
 
 # --- product ---
 logos:
