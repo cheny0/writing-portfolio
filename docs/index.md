@@ -60,7 +60,7 @@ Keycard is a hardware wallet in the form of a contactless smart card. Shell is a
 
 | Sample | Type | What it covers |
 | --- | --- | --- |
-| [Set up your Keycard with Keycard Shell](./user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | How-to | Setting a PIN and duress PIN, then loading a key pair onto the card |
-| [Get to know your Keycard Shell](./user-docs/keycard/get-to-know-your-keycard-shell.mdx) | Quickstart | The controls on the device, its keypad, and the on-screen keyboard |
-| [Update Keycard Shell in air gapped mode](./user-docs/keycard/update-keycard-shell-in-air-gapped-mode.mdx) | How-to | Updating firmware with no data connection, using an SD card |
-| [Understand the SLIP39 wallet backup standard](./user-docs/keycard/understand-the-slip-39-wallet-backup-standard.mdx) | Concept | Share-based backups: how a recovery phrase splits into shares, and what thresholds mean |
+| [Set up your Keycard with Keycard Shell](./user-docs/keycard/set-up-your-keycard-with-keycard-shell.mdx) | How-to | Setting a PIN and duress PIN and adding a key pair onto the card |
+| [Get to know your Keycard Shell](./user-docs/keycard/get-to-know-your-keycard-shell.mdx) | Quickstart | Learning about the controls on the device |
+| [Update Keycard Shell in air gapped mode](./user-docs/keycard/update-keycard-shell-in-air-gapped-mode.mdx) | How-to | Updating firmware with no data connection |
+| [Understand the SLIP39 wallet backup standard](./user-docs/keycard/understand-the-slip-39-wallet-backup-standard.mdx) | Concept | Introduction of SLIP39 |
