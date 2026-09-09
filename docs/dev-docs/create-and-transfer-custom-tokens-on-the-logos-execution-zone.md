@@ -1,9 +1,10 @@
 ---
 title: Create and transfer custom tokens on the Logos Execution Zone
 sidebar_position: 4
+sidebar_label: Create and transfer custom tokens
 description: >-
-  A flat procedure for LEZ users: defining a custom token with the LEZ token program and transferring it between public and private accounts.
-tags: [how-to, logos]
+  A tutorial for LEZ users: defining a custom token with the LEZ token program and transferring it between public and private accounts.
+tags: [tutorial, logos]
 ---
 
 #### Use the wallet CLI to create custom tokens and transfer them between public and private accounts.

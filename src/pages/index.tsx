@@ -73,9 +73,6 @@ function HowIWork() {
             </div>
           ))}
         </div>
-        <p className={styles.workFooter}>
-          See <Link to="/about">About</Link> for background and contact details.
-        </p>
       </div>
     </section>
   );
