@@ -15,16 +15,16 @@ const principles: Principle[] = [
   {
     title: 'Evidence first',
     body:
-      'Source repositories, PRs, and RFCs before prose. Every claim traces back to something I read, ran, or was told by an engineer.',
+      'I run the software, read the design files, and talk to engineers before writing. Every claim traces back to something I read, ran, or was told.',
   },
   {
     title: 'Templates as specs',
     body:
-      "Each document type has an authoritative template that fixes the section order and what belongs in each one, so readers can navigate a document type they've seen before.",
+      'Each document type has a template that fixes the section order and what each section contains. Documents of the same type read the same way.',
   },
   {
-    title: 'Tested commands',
-    body: 'Code blocks are run, not paraphrased.',
+    title: 'AI in the workflow',
+    body: 'Claude Code helps me build sites, sets up tooling and writes first drafts from my templates.',
   },
 ];
 
