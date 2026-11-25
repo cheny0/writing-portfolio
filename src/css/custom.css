@@ -73,3 +73,8 @@
 .markdown > header + h4 .hash-link {
   display: none;
 }
+
+/* Hide publish date and reading time on blog posts. */
+article header div.margin-vert--md:has(time) {
+  display: none;
+}

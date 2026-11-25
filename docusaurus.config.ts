@@ -59,7 +59,9 @@ const config: Config = {
           // articles' own callouts.
           admonitions: {keywords: ['sample'], extendDefaults: true},
         },
-        blog: false,
+        blog: {
+          showReadingTime: false,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -72,6 +74,11 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    blog: {
+      sidebar: {
+        groupByYear: false,
+      },
+    },
     navbar: {
       title: 'Chen Yang',
       items: [
@@ -81,6 +88,7 @@ const config: Config = {
           position: 'left',
           label: 'Writing samples',
         },
+        {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/about', label: 'About', position: 'left'},
         {
           href: 'https://github.com/cheny0',
